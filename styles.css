@@ -1,0 +1,29 @@
+.background {
+    background-image: url("images/baking-background.png");
+    background-repeat: repeat;
+}
+
+.header {
+    background-color: rgb(247, 234, 234);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+    margin: 10%; 
+    justify-content: left;
+    padding:5%;
+}
+
+.header.text {
+    text-align: justify;
+}
+
+.flyinghat {
+    position: relative;
+    animation: mymove 5s infinite;
+
+}
+
+@keyframes mymove {
+    from {left: 0%;}
+    to {left: 75%;}
+  }
+
